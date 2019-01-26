@@ -1,3 +1,5 @@
+///find_path(start, goal)
+
 start = argument0
 goal = argument1
 
@@ -19,11 +21,11 @@ looped = 0
 
 while (ds_priority_size(queue) > 0) {
 	node = ds_priority_delete_min(queue)
-	show_debug_message("looped: " + string(looped))
-	show_debug_message("node: " + string(node))
+	//show_debug_message("looped: " + string(looped))
+	//show_debug_message("node: " + string(node))
 	nearest_trees = find_nearest_trees(node, global.tree_range)
 	fn = ds_map_find_value(global.mins, node) + point_distance(node.x, node.y, goal.x, goal.y)
-	show_debug_message("ds_map_find_value(global.mins, node): " + string(ds_map_find_value(global.mins, node)))
+	//show_debug_message("ds_map_find_value(global.mins, node): " + string(ds_map_find_value(global.mins, node)))
 	
 	if (fn < ds_map_find_value(global.mins, goal)) {
 		
@@ -38,7 +40,7 @@ while (ds_priority_size(queue) > 0) {
 			min_m = ds_map_find_value(global.mins, m)
 
 			//show_debug_message("ds_map_find_value(global.mins, goal): " + string(ds_map_find_value(global.mins, goal)))
-			show_debug_message("min_n: " + string(min_n) + ", min_m: " + string(min_m) + ", dist: " + string(dist))
+			//show_debug_message("min_n: " + string(min_n) + ", min_m: " + string(min_m) + ", dist: " + string(dist))
 			
 			if (min_n + dist < min_m) {
 
@@ -67,33 +69,28 @@ if (point == goal) {
 	return noone
 }
 
-show_debug_message("map:")
-script_execute(print_map, global.prev)
-show_debug_message("start: " + string(start))
-show_debug_message("goal: " + string(goal))
-
-
 path = ds_list_create()
-
-show_debug_message("point: " + string(point))
-show_debug_message("ds_map_find_value(global.prev, point): " + string(ds_map_find_value(global.prev, point)))
 
 point = goal
 
 while (point != start) {
 	ds_list_add(path, point)
 	point = ds_map_find_value(global.prev, point)
-	show_debug_message("point: " + string(point))
-	show_debug_message("ds_map_find_value(global.prev, point): " + string(ds_map_find_value(global.prev, point)))
+	//show_debug_message("point: " + string(point))
+	//show_debug_message("ds_map_find_value(global.prev, point): " + string(ds_map_find_value(global.prev, point)))
 }
 
 ds_map_destroy(global.prev)
 ds_list_add(path, start)
 
-fpath = ds_list_create()
+//fpath = ds_list_create()
 
-for (i = ds_list_size(path) - 1; i >= 0; i--) {
-	ds_list_add(fpath, ds_list_find_value(path, i))
+fpath = ds_queue_create()
+
+for (i = ds_list_size(path) - 1; i >= 0; i --) {
+//for (i = 0; i < ds_list_size(path); i++) {
+	//ds_list_add(fpath, ds_list_find_value(path, i))
+	ds_queue_enqueue(fpath, ds_list_find_value(path, i))
 
 }
 
