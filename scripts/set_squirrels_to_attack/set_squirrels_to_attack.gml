@@ -10,7 +10,9 @@ if (ds_map_size(global.selected_squirrels) > 0) {
 		with (obj_world_human) {
 			if (target == tree && distance_to_object(target) <= attack_range) {
 				//escaping = true
-				create_transition(tree)
+				script_execute(create_transition, "circle", tree)
+				global.current_fight_tree = tree
+				global.current_fight_tree_hp = tree.hp
 			}
 		}
 		

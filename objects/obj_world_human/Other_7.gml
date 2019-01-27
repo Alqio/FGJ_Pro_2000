@@ -6,12 +6,15 @@ if (sprite_index == attack_sprite) {
 		target.hp -= strength
 		if (target.hp <= 0) {
 			
-			squirrel = instance_nearest(target.x,target.y,obj_squirrel)
-			
+			var tree = target
 			with (target) {
 				instance_destroy()
 			}
-			squirrel.current_tree = instance_nearest(squirrel.x, squirrel.y, obj_tree)
+			with (obj_squirrel) {
+				if (current_tree == tree) {
+					current_tree = instance_nearest(x, y, obj_tree)
+				}
+			}
 			
 		}
 	}

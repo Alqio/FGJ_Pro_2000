@@ -10,6 +10,20 @@ for(i = 0; i < ds_list_size(global.trees); i++) {
 			dmg = 0
 			sprite_index = spr_human_idle
 		}
-		//TODO: fade out
+		global.seeds += global.squirrel.acorns
+		global.lost_fight = true
+		
+		if (instance_number(obj_transition2) < 1) {
+			script_execute(create_transition, "fade")
+		}
+		
+		with (obj_squirrel) {
+			if (current_tree == global.current_fight_tree) {
+				current_tree = instance_nearest(x,y,obj_tree)
+			}
+		}
+		
+		
+		
 	}
 }

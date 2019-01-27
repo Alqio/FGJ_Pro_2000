@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "253c0d98-4f4c-4190-83e8-0800155bc6e7",
+            "Value": {
+                "id": "dd90af39-e10f-4be8-8dcc-9c623a3321e8",
+                "resourcePath": "objects\\obj_transition2\\obj_transition2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "273ad79e-3dfe-40fc-8265-7b3a6d2607d1",
             "Value": {
                 "id": "ea8a47fa-5f7a-4b4c-9ebd-ee6d68622b4c",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "60b2eebe-dcfd-4cce-829e-0d183ebcb20e",
+            "Value": {
+                "id": "a039b9dc-49e9-4e37-8a43-8204d1a79097",
+                "resourcePath": "datafiles_yy\\04B_03__.TTF.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "6428e1b0-ceda-4a91-ab69-b60c74fe4d83",
             "Value": {
                 "id": "36eea1a5-7666-404a-926c-713c52a3bd55",
@@ -284,6 +300,14 @@
                 "id": "53999284-8ee5-4e11-8fa6-92051804d177",
                 "resourcePath": "scripts\\reset_branch_sprites\\reset_branch_sprites.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "65e20939-df62-49fe-898a-b6e4c92dbbb8",
+            "Value": {
+                "id": "9bc343ad-0e98-4b41-9634-6ad67ad785ab",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
             }
         },
         {

@@ -37,13 +37,7 @@ if (target == noone || !instance_exists(target)) {
 		} else {
 			speed = 0
 			if (alarm[0] <= 0) can_attack = true
-			
-
-			
 		}
-		
-
-		
 	}
 }
 

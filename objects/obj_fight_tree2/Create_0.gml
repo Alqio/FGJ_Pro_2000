@@ -8,7 +8,7 @@ right_branches = ds_list_create()
 trunk_width = 100
 trunk_height = 500
 
-hp = 100
+hp = 100 * (global.current_fight_tree_hp / 10)
 
 for(i = 0; i < MAX_BRANCH; i++) {
 	branch_x = x + 30 + i % 2 * 50 
