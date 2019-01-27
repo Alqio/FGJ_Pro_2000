@@ -23,7 +23,11 @@ for(i = 0; i < ds_list_size(global.trees); i++) {
 			}
 		}
 		
-		
-		
+		end_fight()
+
 	}
+}
+
+if(global.humans_runaway >= global.squirrel_count) {
+	end_fight()
 }

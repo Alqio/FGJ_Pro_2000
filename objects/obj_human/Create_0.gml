@@ -7,3 +7,4 @@ dmg = 5
 direction = 90
 speed = 4
 runaway = false
+runaway_flag = false

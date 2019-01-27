@@ -24,10 +24,14 @@ global.selected_squirrels = ds_map_create()
 
 global.selecting_plant_pos = false
 
+
 global.fnt_small = font_add("04B_03__.TTF", 12, false, false, 32, 128)
 global.fnt_medium = font_add("04B_03__.TTF", 16, false, false, 32, 128)
 global.fnt_large = font_add("04B_03__.TTF", 24, false, false, 32, 128)
 global.fnt_huge = font_add("04B_03__.TTF", 36, false, false, 32, 128)
 draw_set_font(global.fnt_medium)
+
+global.squirrel_count = 2
+
 room_goto_next()
 
