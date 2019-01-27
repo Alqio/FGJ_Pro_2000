@@ -3,6 +3,7 @@
 randomize()
 
 global.fight_is_on = true
+global.humans_runaway = 0
 
 global.trees = ds_list_create()
 global.humans = ds_list_create()

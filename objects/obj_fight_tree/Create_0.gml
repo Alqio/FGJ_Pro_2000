@@ -13,7 +13,12 @@ hp = 100
 branch_y = y - 190
 
 for(i = 0; i < MAX_BRANCH; i++) {
-	right = choose(0, 1)
+	
+	if(i != 0 && i != MAX_BRANCH -1 ) {
+		right = choose(0, 1)
+	} else {
+		right = 1
+	}
 	x_offset = irandom_range(10, 30)
 	branch_x = x + x_offset + right * (80 - x_offset) 
 	branch_y -= irandom_range(40, 50)

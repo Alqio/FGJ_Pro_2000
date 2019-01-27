@@ -17,6 +17,8 @@ global.selected_squirrels = ds_map_create()
 
 global.selecting_plant_pos = false
 
+global.squirrel_count = 2
+
 //global.fnt_small = font_add("0b403", 12, false, false, 0, 255)
 //draw_set_font(global.fnt_small)
 room_goto_next()

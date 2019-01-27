@@ -5,7 +5,7 @@
 if(global.fight_is_on){
 	spawn_timer--
 }
-if(spawn_timer == 0) {
+if(spawn_timer <= 0) {
 	ds_list_shuffle(global.branches)
 	spawn_branch = ds_list_find_value(global.branches, 0)	
 	if(spawn_branch.heading == "right"){
@@ -15,5 +15,5 @@ if(spawn_timer == 0) {
 	}
 	acorn_y = spawn_branch.y
 	acorn = instance_create_depth(acorn_x, acorn_y, -2, obj_acorn_collectable)
-	spawn_timer = max_timer
+	spawn_timer = max_timer * random_range(0.5, 1.5)
 }

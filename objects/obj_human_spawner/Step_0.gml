@@ -4,8 +4,7 @@
 if(global.fight_is_on){
 	spawn_timer--
 }
-if(spawn_timer == 0) {
-	show_debug_message("spawner")
+if(spawn_timer <= 0 && humans_spawned + 1 < global.squirrel_count) {
 	available_slots = ds_list_create()
 	for(i = 0; i < 4; i++) {
 		if(!global.slots[i]){
@@ -40,11 +39,12 @@ if(spawn_timer == 0) {
 		}
 		global.slots[spot] = true
 		human = instance_create_depth(go_to_x, room_height + 300, -2, obj_human)
+		humans_spawned++
 		human.on_spot = spot
-		show_debug_message(human.x)
 		if(mirror) {
 			human.image_xscale *= -1
 		}
+		
 	}
 	spawn_timer = 500
 }

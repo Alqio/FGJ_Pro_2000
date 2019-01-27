@@ -10,11 +10,21 @@ trunk_height = 500
 
 hp = 100
 
+branch_y = y - 190
+
 for(i = 0; i < MAX_BRANCH; i++) {
-	branch_x = x + 30 + i % 2 * 50 
-	branch_y = y - 250 - i * 40
+	
+	if(i != 0 && i != MAX_BRANCH -1 ) {
+		right = choose(0, 1)
+	} else {
+		right = 0
+	}
+	x_offset = irandom_range(10, 30)
+	branch_x = x + x_offset + right * (80 - x_offset) 
+	branch_y -= irandom_range(40, 50)
 	branch = instance_create_depth(branch_x, branch_y, 0, obj_branch)
-	if((i%2 - 1) * -1) {
+	
+	if(!right) {
 		branch.image_angle += 180
 		ds_list_add(left_branches, branch)
 		branch.heading = "left"
