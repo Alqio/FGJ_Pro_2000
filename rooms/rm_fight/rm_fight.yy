@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "rm_fight",
     "id": "cf78c90f-5bfe-4eb1-9fd8-43624423556c",
     "creationCodeFile": "",
     "inheritCode": false,
