@@ -3,6 +3,6 @@
 global.max_humans = 3
 global.humans = 0
 
-alarm[0] = 60
+alarm[0] = 600
 
-spawn_speed = 300
+spawn_speed = 900

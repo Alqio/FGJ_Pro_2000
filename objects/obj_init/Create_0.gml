@@ -3,6 +3,8 @@
 
 randomize()
 
+global.points = 0
+
 global.seeds = 5
 global.resin = 0
 

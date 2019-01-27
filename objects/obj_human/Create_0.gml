@@ -6,7 +6,7 @@ spd = 2 / scale
 
 target = noone
 
-strength = 3 * scale
+strength = 1 * scale
 attack_range = 3
 attack_speed = 20
 

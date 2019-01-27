@@ -8,8 +8,10 @@ if (choose(1,2) == 1) {
 	xx = irandom(room_width)
 	yy = choose(-10, room_height + 10)
 }
+
+
 if (global.humans < global.max_humans) {
-	human = instance_create_depth(xx, yy, -2, obj_human)
+	instance_create_depth(xx, yy, -2, obj_human)
 	global.humans++
 }
 alarm[0] = spawn_speed * random_range(0.8, 1.2)

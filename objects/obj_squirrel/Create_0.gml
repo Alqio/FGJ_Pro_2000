@@ -25,4 +25,8 @@ wants_to_plant = false
 plant_pos_x = x
 plant_pos_y = y
 
-depth = -50
+depth = -1
+
+home_tree = instance_nearest(x,y, obj_home_tree)
+
+fly_sprite = sprite_index

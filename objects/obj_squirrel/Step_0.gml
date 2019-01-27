@@ -30,7 +30,10 @@ if (path != noone && ds_queue_size(path) > 0)  {
 		} else {
 			path = noone
 			moving = false
-			job = "collecting"
+			if (job != "in training") {
+				if (class != "soldier") job = "collecting" else job = "idle"
+			}
+			
 			current_tree = final_destination
 			final_destination = noone
 			current_destination = noone
@@ -54,7 +57,8 @@ if (path == noone && distance_to_point(current_tree.x, current_tree.y) > 1) {
 	speed = 0
 }
 
-if (job == "collecting") {
+if (job == "collecting" && current_tree != home_tree) {
+	
 	if (current_tree.resins > 0 && alarm[0] <= 0) {
 		global.resin++
 		current_tree.resins--
@@ -62,8 +66,12 @@ if (job == "collecting") {
 	}
 	sprite_index = spr_collecting_squirrel
 	image_speed = 0.6
-} else {
-	sprite_index = spr_flying_squirrel
+} else if (class == "soldier") {
+	sprite_index = fly_sprite
+} else if (job == "collecting" && current_tree == home_tree){
+	sprite_index = spr_collecting_squirrel
+	image_speed = 0
+	job = "idle"
 }
 
 image_angle = direction
@@ -77,5 +85,9 @@ if (wants_to_plant && path == noone) {
 		global.seeds--
 	}
 	wants_to_plant = false
-	job = "collecting"
+	if (class != "soldier") job = "collecting" else job = "idle"
+}
+
+if (job == "in training" && current_tree == home_tree && alarm[1] <= 0) {
+	alarm[1] = 120
 }
