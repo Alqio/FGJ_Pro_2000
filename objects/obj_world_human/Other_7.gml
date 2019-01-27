@@ -5,8 +5,9 @@ if (sprite_index == attack_sprite) {
 	
 	if (target != noone) {
 		
-		if (!audio_is_playing(snd_axe_chop)) {
-			audio_play_sound(snd_axe_chop, 0, false)
+		if (!audio_is_playing(snd_axe_chop1)) {
+			audio = choose(snd_axe_chop1, snd_axe_chop2, snd_axe_chop3)
+			audio_play_sound(audio, 0, false)
 		}
 		
 		target.hp -= strength

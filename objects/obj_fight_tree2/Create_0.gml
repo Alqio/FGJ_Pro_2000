@@ -19,6 +19,9 @@ for(i = 0; i < MAX_BRANCH; i++) {
 	} else {
 		right = 0
 	}
+	if(i == MAX_BRANCH - 2 && ds_list_size(right_branches) == 0) {
+		right = 1
+	}
 	x_offset = irandom_range(10, 30)
 	branch_x = x + x_offset + right * (80 - x_offset) 
 	branch_y -= irandom_range(40, 50)

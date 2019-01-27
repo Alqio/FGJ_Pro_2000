@@ -14,10 +14,13 @@ branch_y = y - 190
 
 for(i = 0; i < MAX_BRANCH; i++) {
 	
-	if(i != 0 && i != MAX_BRANCH -1 ) {
+	if(i != 0 && i != MAX_BRANCH -1) {
 		right = choose(0, 1)
 	} else {
 		right = 1
+	}
+	if(i == MAX_BRANCH - 2 && ds_list_size(left_branches) == 0) {
+		right = 0
 	}
 	x_offset = irandom_range(10, 30)
 	branch_x = x + x_offset + right * (80 - x_offset) 

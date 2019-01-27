@@ -74,7 +74,7 @@
             "Key": "0b96cac1-7c70-4cd5-9bdf-536fcef90d4e",
             "Value": {
                 "id": "ecac5dbb-56fa-4a16-bd93-41c934a3c30a",
-                "resourcePath": "sounds\\snd_axe_chop\\snd_axe_chop.yy",
+                "resourcePath": "sounds\\snd_axe_chop1\\snd_axe_chop1.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -92,6 +92,14 @@
                 "id": "3248dffd-76c6-439b-8c51-0b814a4ed7cb",
                 "resourcePath": "objects\\obj_human_spawner\\obj_human_spawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "110e7368-c157-446b-b7c2-5b2ae32909aa",
+            "Value": {
+                "id": "9d004686-e1ba-4b7d-b658-25c6b2092e84",
+                "resourcePath": "sounds\\snd_axe_chop3\\snd_axe_chop3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "8d3f37ce-6444-4061-b099-8b67cbfe5d0e",
+            "Value": {
+                "id": "498b0595-918d-4a7e-816f-24ad69fe04f8",
+                "resourcePath": "objects\\obj_help_textbox\\obj_help_textbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f4e8a5f-4cd7-41ad-bbe1-f9039b70e42d",
             "Value": {
                 "id": "14f3a49d-30e1-48be-bc0e-c4a551727ab8",
@@ -708,6 +724,14 @@
                 "id": "41c89e40-42c1-49f7-9862-9d92c8e0625e",
                 "resourcePath": "views\\bd0885ba-62d6-4ed2-8b15-4ce89e0ab494.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bd5012b8-923b-4de0-a4c8-62fd00e45947",
+            "Value": {
+                "id": "03f307e1-42ab-4a14-a983-f792e47b4efb",
+                "resourcePath": "sounds\\snd_axe_chop2\\snd_axe_chop2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
