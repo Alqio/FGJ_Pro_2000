@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -319,19 +319,19 @@
             }
         },
         {
-            "Key": "62d42d05-42aa-4715-ac0d-76d3e1d40979",
-            "Value": {
-                "id": "9498dba5-c588-49e7-9bd3-2d6fecd0f4df",
-                "resourcePath": "objects\\obj_logo\\obj_logo.yy",
-                "resourceType": "GMObject"
-                }
-              },
-              {
             "Key": "60b2eebe-dcfd-4cce-829e-0d183ebcb20e",
             "Value": {
                 "id": "a039b9dc-49e9-4e37-8a43-8204d1a79097",
                 "resourcePath": "datafiles_yy\\04B_03__.TTF.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "62d42d05-42aa-4715-ac0d-76d3e1d40979",
+            "Value": {
+                "id": "9498dba5-c588-49e7-9bd3-2d6fecd0f4df",
+                "resourcePath": "objects\\obj_logo\\obj_logo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -508,6 +508,14 @@
                 "id": "53e33c5d-ef3e-417b-8473-3a80a9efb01d",
                 "resourcePath": "scripts\\find_nearest_trees\\find_nearest_trees.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8d3f37ce-6444-4061-b099-8b67cbfe5d0e",
+            "Value": {
+                "id": "498b0595-918d-4a7e-816f-24ad69fe04f8",
+                "resourcePath": "objects\\obj_help_textbox\\obj_help_textbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
