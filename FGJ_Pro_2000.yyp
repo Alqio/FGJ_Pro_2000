@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0a0ea4dd-9cc6-468a-b65a-69d39aa6eb48",
+            "Value": {
+                "id": "37a227a8-7c4b-4a93-bbff-7570c54aad70",
+                "resourcePath": "rooms\\rm_help\\rm_help.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0acacb6e-4ffe-4981-9a06-dd455dd07529",
             "Value": {
                 "id": "8a908d5d-c45d-47b4-b20e-e2a7496d32c5",
@@ -468,6 +476,14 @@
                 "id": "08db226b-46af-46ba-a3f2-9928ecf497f2",
                 "resourcePath": "sounds\\msc_world_background\\msc_world_background.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "86ff4b36-22aa-45a1-a9dd-e2672587a4d6",
+            "Value": {
+                "id": "41fb5d9a-fb59-4de8-919d-49ff822b8e91",
+                "resourcePath": "objects\\obj_button_back\\obj_button_back.yy",
+                "resourceType": "GMObject"
             }
         },
         {
