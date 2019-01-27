@@ -3,6 +3,10 @@
 
 randomize()
 
+global.max_humans = 3
+global.human_count = 0
+
+
 global.points = 0
 
 global.seeds = 5

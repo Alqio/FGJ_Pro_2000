@@ -17,6 +17,7 @@ if(y < attack_tree.y + 40 && !runaway) {
 	sprite_index = spr_human_attack
 	if(irandom_range(0,100) == 1) {
 		attack_tree.hp -= dmg
+		
 	}
 }
 

@@ -10,8 +10,10 @@ if (choose(1,2) == 1) {
 }
 
 
-if (global.humans < global.max_humans) {
+if (global.human_count < global.max_humans) {
 	instance_create_depth(xx, yy, -2, obj_world_human)
-	global.humans++
+	global.human_count++
 }
 alarm[0] = spawn_speed * random_range(0.8, 1.2)
+
+global.max_humans = instance_number(obj_squirrel) + 1

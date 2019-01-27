@@ -24,3 +24,10 @@ global.squirrel.branch = start_branch
 human = instance_create_depth(tree1.x + tree1.trunk_width + 50, tree1.y + 40, -2, obj_human)
 human.on_spot = 1
 global.slots[1] = true
+
+if (audio_is_playing(msc_world_background)) {
+	audio_pause_sound(msc_world_background)
+}
+if (!audio_is_playing(msc_fight_background)) {
+	audio_play_sound(msc_fight_background, 5, true)
+}

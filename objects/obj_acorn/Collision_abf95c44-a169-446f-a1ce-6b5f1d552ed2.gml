@@ -9,3 +9,7 @@ if(!hit) {
 	show_debug_message(other.hp)
 }
 hit = true
+
+if (!audio_is_playing(snd_acorn)) {
+	audio_play_sound(snd_acorn, 1, false)
+}
