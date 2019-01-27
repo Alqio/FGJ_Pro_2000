@@ -7,7 +7,7 @@ if (ds_map_size(global.selected_squirrels) > 0) {
 		
 		var tree = squirrel.current_tree
 		//TODO: start attacking
-		with (obj_human) {
+		with (obj_world_human) {
 			if (target == tree && distance_to_object(target) <= attack_range) {
 				//escaping = true
 				create_transition(tree)

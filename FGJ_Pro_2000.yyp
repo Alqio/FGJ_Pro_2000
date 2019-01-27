@@ -258,7 +258,7 @@
             "Key": "942623f0-0559-4d23-b3e4-a7cd8726020e",
             "Value": {
                 "id": "b2e71b94-5981-486c-9950-d514a1f045e1",
-                "resourcePath": "objects\\obj_human\\obj_human.yy",
+                "resourcePath": "objects\\obj_world_human\\obj_world_human.yy",
                 "resourceType": "GMObject"
             }
         },
