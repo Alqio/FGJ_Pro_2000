@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "62d42d05-42aa-4715-ac0d-76d3e1d40979",
+            "Value": {
+                "id": "9498dba5-c588-49e7-9bd3-2d6fecd0f4df",
+                "resourcePath": "objects\\obj_logo\\obj_logo.yy",
+                "resourceType": "GMObject"
+                }
+              },
+              {
             "Key": "60b2eebe-dcfd-4cce-829e-0d183ebcb20e",
             "Value": {
                 "id": "a039b9dc-49e9-4e37-8a43-8204d1a79097",
@@ -955,6 +963,14 @@
             "Value": {
                 "id": "19ef7e0b-a81e-4149-99a8-3cb541478a34",
                 "resourcePath": "sprites\\spr_fight_tree\\spr_fight_tree.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0d65414-b05f-412e-a504-770ae2a47423",
+            "Value": {
+                "id": "eb066ef6-70d2-4e8a-93ce-f5a9e6524c62",
+                "resourcePath": "sprites\\spr_logo\\spr_logo.yy",
                 "resourceType": "GMSprite"
             }
         },
