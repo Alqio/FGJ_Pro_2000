@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,11 +25,19 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
     "resources": [
+        {
+            "Key": "0114ea68-073f-4e50-8c61-432def294882",
+            "Value": {
+                "id": "52aac4a6-f451-4431-8f7e-d989fc059b53",
+                "resourcePath": "sounds\\snd_auts\\snd_auts.yy",
+                "resourceType": "GMSound"
+            }
+        },
         {
             "Key": "014cee65-9c95-4e25-9114-1e70f0df2805",
             "Value": {
@@ -319,19 +327,19 @@
             }
         },
         {
-            "Key": "62d42d05-42aa-4715-ac0d-76d3e1d40979",
-            "Value": {
-                "id": "9498dba5-c588-49e7-9bd3-2d6fecd0f4df",
-                "resourcePath": "objects\\obj_logo\\obj_logo.yy",
-                "resourceType": "GMObject"
-                }
-              },
-              {
             "Key": "60b2eebe-dcfd-4cce-829e-0d183ebcb20e",
             "Value": {
                 "id": "a039b9dc-49e9-4e37-8a43-8204d1a79097",
                 "resourcePath": "datafiles_yy\\04B_03__.TTF.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "62d42d05-42aa-4715-ac0d-76d3e1d40979",
+            "Value": {
+                "id": "9498dba5-c588-49e7-9bd3-2d6fecd0f4df",
+                "resourcePath": "objects\\obj_logo\\obj_logo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -388,6 +396,14 @@
                 "id": "a7aa8bae-18c4-4435-8f40-fea617c548b5",
                 "resourcePath": "objects\\obj_button\\obj_button.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6d6b0639-2649-4de1-8620-6d43a57b0e63",
+            "Value": {
+                "id": "3206ae70-fa57-4a85-bb78-f2fd05a31403",
+                "resourcePath": "sounds\\snd_escape\\snd_escape.yy",
+                "resourceType": "GMSound"
             }
         },
         {

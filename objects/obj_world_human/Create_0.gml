@@ -8,7 +8,7 @@ target = noone
 
 strength = 1 * scale
 attack_range = 3
-attack_speed = 20
+attack_speed = 40
 
 attack_sprite = spr_attacking_human
 walk_sprite = spr_walking_human

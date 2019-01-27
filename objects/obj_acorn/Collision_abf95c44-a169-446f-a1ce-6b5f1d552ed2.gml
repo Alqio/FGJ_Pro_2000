@@ -10,6 +10,8 @@ if(!hit) {
 }
 hit = true
 
-if (!audio_is_playing(snd_acorn)) {
+if (!audio_is_playing(snd_acorn) && !sound_has_played) {
 	audio_play_sound(snd_acorn, 1, false)
+	audio_play_sound(snd_auts, 4, false)
+	sound_has_played = true
 }

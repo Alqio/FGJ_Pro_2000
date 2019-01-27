@@ -5,5 +5,3 @@ draw_outline("Seeds: " + string(global.seeds) + "\nResin: " + string(global.resi
 draw_set_halign(fa_center)
 draw_outline("SCORE: " + string(global.points), room_width / 2, 32, c_yellow)
 draw_set_halign(fa_left)
-
-draw_outline(instance_number(obj_world_human), 80, 80, c_red)
