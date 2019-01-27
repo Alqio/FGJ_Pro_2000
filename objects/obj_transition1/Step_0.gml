@@ -1,3 +1,5 @@
+if (!instance_exists(target)) instance_destroy()
+
 scale -= rspeed
 if (scale < 0) {
 	scale = 0
