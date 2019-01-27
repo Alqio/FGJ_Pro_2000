@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -52,6 +52,14 @@
                 "id": "8a908d5d-c45d-47b4-b20e-e2a7496d32c5",
                 "resourcePath": "objects\\controller_fight\\controller_fight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0b96cac1-7c70-4cd5-9bdf-536fcef90d4e",
+            "Value": {
+                "id": "ecac5dbb-56fa-4a16-bd93-41c934a3c30a",
+                "resourcePath": "sounds\\snd_axe_chop\\snd_axe_chop.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "91e83755-df3d-43bd-8b87-4d48d2306109",
                 "resourcePath": "objects\\obj_seed\\obj_seed.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "253c0d98-4f4c-4190-83e8-0800155bc6e7",
+            "Value": {
+                "id": "dd90af39-e10f-4be8-8dcc-9c623a3321e8",
+                "resourcePath": "objects\\obj_transition2\\obj_transition2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -300,6 +316,14 @@
                 "id": "9498dba5-c588-49e7-9bd3-2d6fecd0f4df",
                 "resourcePath": "objects\\obj_logo\\obj_logo.yy",
                 "resourceType": "GMObject"
+                }
+              },
+              {
+            "Key": "60b2eebe-dcfd-4cce-829e-0d183ebcb20e",
+            "Value": {
+                "id": "a039b9dc-49e9-4e37-8a43-8204d1a79097",
+                "resourcePath": "datafiles_yy\\04B_03__.TTF.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -324,6 +348,14 @@
                 "id": "53999284-8ee5-4e11-8fa6-92051804d177",
                 "resourcePath": "scripts\\reset_branch_sprites\\reset_branch_sprites.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "65e20939-df62-49fe-898a-b6e4c92dbbb8",
+            "Value": {
+                "id": "9bc343ad-0e98-4b41-9634-6ad67ad785ab",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -372,6 +404,14 @@
                 "id": "a50099bd-7312-4b7b-bcee-354a8679faa5",
                 "resourcePath": "objects\\obj_squirrel_menu_branch\\obj_squirrel_menu_branch.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "79d3438f-3fff-447f-ad4f-7a5750c2043b",
+            "Value": {
+                "id": "ac62c78d-73dd-43d5-813d-b226b3e69bc5",
+                "resourcePath": "sounds\\msc_fight_background\\msc_fight_background.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -428,6 +468,14 @@
                 "id": "9e72b8de-b73c-4350-a375-5b6d680eaa6d",
                 "resourcePath": "sprites\\spr_seed\\spr_seed.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "86e194d0-77ed-406d-996d-aba7e40300fa",
+            "Value": {
+                "id": "08db226b-46af-46ba-a3f2-9928ecf497f2",
+                "resourcePath": "sounds\\msc_world_background\\msc_world_background.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -583,6 +631,14 @@
             }
         },
         {
+            "Key": "b5192af0-02a6-4cab-a785-22a017598e3b",
+            "Value": {
+                "id": "32640c78-4e88-43c4-982f-606560fe2683",
+                "resourcePath": "sounds\\snd_acorn\\snd_acorn.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b7bcab58-d034-452a-b14d-bb1e584b4aa5",
             "Value": {
                 "id": "9e63c930-a65b-4fb5-9829-292033a0922d",
@@ -708,6 +764,14 @@
                 "id": "93dc67ce-d987-487c-ba47-a780c705fc7b",
                 "resourcePath": "objects\\obj_fight_tree2\\obj_fight_tree2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "caa22541-4ec3-486f-8947-03fe21977424",
+            "Value": {
+                "id": "b619b46e-caf6-4bc8-a6e2-678c99634251",
+                "resourcePath": "sounds\\snd_glide\\snd_glide.yy",
+                "resourceType": "GMSound"
             }
         },
         {

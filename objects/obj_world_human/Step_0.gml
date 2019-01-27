@@ -23,6 +23,7 @@ if (escaping) {
 	if (distance_to_point(escape_point_x, escape_point_y) < 5) {
 		global.seeds++
 		global.points++
+		global.humans--
 		instance_destroy()
 	}
 	exit
@@ -37,13 +38,7 @@ if (target == noone || !instance_exists(target)) {
 		} else {
 			speed = 0
 			if (alarm[0] <= 0) can_attack = true
-			
-
-			
 		}
-		
-
-		
 	}
 }
 
